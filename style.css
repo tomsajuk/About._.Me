@@ -1,0 +1,58 @@
+body {
+	width: inherit;
+	margin: 0;
+	padding: 0px;
+}
+.page {
+	height: 100vw;
+	width: inherit;
+	max-height: 100vh;
+	margin: 0;
+	padding: 1px;
+}
+#one {
+	background-color: #000;
+	background-image: url(images/_DSC2282.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#two {
+	background-color: #F96;
+}
+
+
+#about {
+	font-family: "Baskerville Old Face";
+	padding-right: 10px;
+	text-align: center;
+}
+
+
+
+#home_button {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	-webkit-transition: background-color 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: background-color 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: background-color 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: background-color 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: background-color 0s cubic-bezier(x1,y1,x2,y2) 0s;
+}
+#navigation {
+	background-color: #D4AF95;
+	text-align: right;
+	padding: 5;
+	position: fixed;
+	width: 100%;
+}
+
+
+
+#hello {
+	font-family: "Comic Sans MS", cursive;
+	color: #FF6633;
+	line-height: none;
+	font-style: oblique;
+}
